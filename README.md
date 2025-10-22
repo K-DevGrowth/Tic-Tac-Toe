@@ -3,7 +3,7 @@
 ## Định dạng (Formatting)
 ### 1.1 Indentation
 * Dùng **4 spaces**, không dùng tab.
-```
+```c++
 // good
 cppif (is_valid) {    
   processData();
@@ -12,7 +12,8 @@ cppif (is_valid) {
 cppif (is_valid)
 {	
   processData();
-}```
+}
+```
 ### 1.2 Dấu ngoặc (Braces)
 * Dấu `{` nằm **cùng dòng với câu lệnh mở**, và `}` xuống dòng riêng.
 **Good:**
