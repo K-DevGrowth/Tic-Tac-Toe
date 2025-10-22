@@ -22,7 +22,7 @@ int main() {
 
 - Quản lý danh sách sinh viên, môn học, và điểm.
 
-- Tìm kiếm, chỉnh sửa, và xóa thông tin.
+- Tìm kiếm, thêm, chỉnh sửa, và xóa thông tin.
 
 - Xuất báo cáo điểm trung bình và thống kê.
 
