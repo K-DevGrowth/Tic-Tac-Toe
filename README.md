@@ -44,10 +44,9 @@ g++ -std=c++17 -o sms main.cpp
 
 ## Contribute
 
-Issue Tracker: https://gitlab.com/your-group/student-management-system/issues
+Issue Tracker: https://gitlab.com/n-tin-h-c/quan-li-diem-sinh-vien
 
-Source Code: https://gitlab.com/your-group/student-management-system
-
+Source Code: https://gitlab.com/n-tin-h-c/quan-li-diem-sinh-vien
 
 Hướng dẫn đóng góp:
 
