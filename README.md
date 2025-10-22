@@ -1,39 +1,74 @@
-$project
-========
+Quản Lý Điểm Sinh Viên
+=========================
 
-$project solves the problem of where to start with documentation
-by providing a basic explanation of how to do it easily:
+**Quản Lý Điểm Sinh Viên** là một chương trình C++ giúp quản lý thông tin sinh viên, môn học, và điểm số.  
+Dự án được thiết kế theo nguyên tắc *clean code*, dễ mở rộng và phù hợp cho các nhóm học lập trình C++.
 
-    import project
-    # Get your stuff done
-    project.do_stuff()
+Ví dụ sử dụng:
+```cpp
+#include "student.h"
+#include "subject.h"
+#include "score.h"
 
-Features
---------
+int main() {
+    // Khởi tạo chương trình
+    StudentManager system;
+    system.run(); // Bắt đầu giao diện quản lý
+    return 0;
+}
 
-- Be awesome
-- Make things faster
+## Features
 
-Installation
-------------
+- Quản lý danh sách sinh viên, môn học, và điểm.
 
-Install $project by running:
+- Tìm kiếm, chỉnh sửa, và xóa thông tin.
 
-    install project
+- Xuất báo cáo điểm trung bình và thống kê.
 
-Contribute
-----------
+- Lưu dữ liệu ra file hoặc đọc dữ liệu từ file.
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
+- Code tuân thủ quy tắc clean code, dễ đọc, dễ bảo trì.
 
-Support
--------
 
-Let us know if you have issues.
-See our mailing list at: project@google-groups.com
+## Installation
 
-License
--------
+Clone dự án từ GitLab hoặc GitHub và biên dịch bằng trình biên dịch C++ (g++, clang++, hoặc MSVC).
 
-The project is licensed under the BSD license.
+git clone https://gitlab.com/your-group/student-management-system.git
+cd student-management-system
+g++ -std=c++17 -o sms main.cpp
+./sms
+
+## Contribute
+
+Issue Tracker: https://gitlab.com/your-group/student-management-system/issues
+
+Source Code: https://gitlab.com/your-group/student-management-system
+
+
+Hướng dẫn đóng góp:
+
+1. Fork dự án.
+
+
+2. Tạo nhánh mới (git checkout -b feature/tên-tính-năng).
+
+
+3. Commit code của bạn.
+
+
+4. Gửi merge request.
+
+
+
+## Support
+
+Nếu bạn gặp lỗi hoặc muốn góp ý, hãy liên hệ qua email nhóm:
+📧 student.management.group@gmail.com
+
+Hoặc tham gia group hỗ trợ:
+💬 Google Group
+
+## License
+
+Dự án được phát hành dưới giấy phép MIT License.
