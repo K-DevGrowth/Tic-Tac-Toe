@@ -3,10 +3,16 @@
 ## Định dạng (Formatting)
 ### 1.1 Indentation
 * Dùng **4 spaces**, không dùng tab.
-**Good:**
-```cppif (is_valid) {    processData();}```
-**Bad:**
-```cppif (is_valid){	processData();}```
+```
+// good
+cppif (is_valid) {    
+  processData();
+}
+// bad
+cppif (is_valid)
+{	
+  processData();
+}```
 ### 1.2 Dấu ngoặc (Braces)
 * Dấu `{` nằm **cùng dòng với câu lệnh mở**, và `}` xuống dòng riêng.
 **Good:**
