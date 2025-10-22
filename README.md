@@ -1,5 +1,4 @@
-Quản Lý Điểm Sinh Viên
-=========================
+# Quản Lý Điểm Sinh Viên
 
 **Quản Lý Điểm Sinh Viên** là một chương trình C++ giúp quản lý thông tin sinh viên, môn học, và điểm số.  
 Dự án được thiết kế theo nguyên tắc *clean code*, dễ mở rộng và phù hợp cho các nhóm học lập trình C++.
