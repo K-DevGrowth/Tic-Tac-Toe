@@ -35,10 +35,12 @@ int main() {
 
 Clone dự án từ GitLab hoặc GitHub và biên dịch bằng trình biên dịch C++ (g++, clang++, hoặc MSVC).
 
+```cpp
 git clone https://gitlab.com/your-group/student-management-system.git
 cd student-management-system
 g++ -std=c++17 -o sms main.cpp
 ./sms
+```
 
 ## Contribute
 
