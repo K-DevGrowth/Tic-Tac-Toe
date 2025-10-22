@@ -1,7 +1,5 @@
 
-## 2. Nguyên tắc cơ bản
-* **Đọc quan trọng hơn viết:** Code sẽ được đọc nhiều hơn viết. Hãy ưu tiên sự rõ ràng.* **Tính nhất quán:** Trong một nhóm, mọi người phải theo cùng một quy tắc.* **Tối giản nhưng chặt chẽ:** Viết ít hơn, hiểu nhanh hơn, ít lỗi hơn.
----
+# Coding rules
 ## 3. Định dạng (Formatting)
 ### 3.1 Indentation
 * Dùng **4 spaces**, không dùng tab.
